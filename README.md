@@ -2,6 +2,8 @@ Created an application selling t-shirts using Activities, Intents, and HTTP requ
 For the server requests, I created a database on my local server. 
 You can do the same to test this app by installing XAMPP on your computer, identifying your IP address, and replacing the string PRODUCT_URL in ShopActivity.java. 
 Add the php file (below) in XAMPP/htdocs/api: 
+
+
     <?php
 	define('DB_HOST','localhost');
 	define('DB_USER','root');
