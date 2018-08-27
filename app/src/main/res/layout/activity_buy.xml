@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BuyActivity">
+
+    <TextView
+        android:id="@+id/checkOutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/checkOutPage"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/orderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkOutTitle"
+        android:padding="15dp"
+        android:text="@string/orderSummaryTitle"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderTitle"
+        android:id="@+id/orderSummary"
+        android:padding="15dp" />
+
+    <TextView
+        android:id="@+id/BillingAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderSummary"
+        android:padding="15dp"
+        android:text="Billing Address"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_toRightOf="@id/BillingAddress"
+        android:layout_below="@id/orderSummary"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/CreditCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/BillingAddress"
+        android:padding="15dp"
+        android:text="@string/creditCard"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BillingAddress"
+        android:layout_toRightOf="@id/CreditCard"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/buyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CreditCard"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="@string/buyNow" />
+</RelativeLayout>

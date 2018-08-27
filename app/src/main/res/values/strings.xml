@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TshirtParadise</string>
+    <string name="merch">Check Our Stock</string>
+    <string name="headline">Swear by Sexy</string>
+    <string name="subHeadline">How Sexy Do You Want to Be?</string>
+    <string name="sexy0">unsexy</string>
+    <string name="sexy1">sexy enough to get a date</string>
+    <string name="sexy2">sexy like a tesla</string>
+    <string name="sexy3">sexy like a cobra</string>
+    <string name="checkout">Check Out</string>
+    <string name="tShirtHeadline">Get your Tshirt Today!</string>
+    <string name="checkOutPage">Check Out</string>
+    <string name="billing">Billing Address</string>
+    <string name="creditCard">Credit Card</string>
+    <string name="orderSummaryTitle">Order Summary</string>
+    <string name="buyNow">Buy</string>
+</resources>
